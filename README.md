@@ -14,15 +14,9 @@ For implemented portfolio examples, see the [Enterprise ERP frontend](https://gi
 
 ## Intended architecture
 
-```mermaid
-flowchart LR
-    Angular[Angular UI] -. HTTP / JSON .-> API[ASP.NET Core API]
-    API -.-> Business[Business logic]
-    Business -.-> EF[EF Core]
-    EF -.-> SQL[(SQL Server)]
-```
+![Architecture diagram](fusion-architecture.svg)
 
-Dashed arrows indicate the intended design; application implementations are not included in this snapshot.
+Dashed outlines and arrows indicate the intended design; application implementations are not included in this snapshot.
 
 ## Technologies and contents
 
